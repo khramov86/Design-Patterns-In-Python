@@ -58,5 +58,6 @@ class Creator:
 
 
 # The Client
-PRODUCT = Creator().create_object('b')
+# PRODUCT = Creator().create_object('c')
+PRODUCT= Creator().create_object('a')
 print(PRODUCT.name)
